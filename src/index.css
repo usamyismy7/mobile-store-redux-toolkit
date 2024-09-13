@@ -5,15 +5,15 @@ Variables
 */
 
 :root {
-  --clr-primary: #645cff;
-  --clr-primary-dark: #282566;
-  --clr-primary-light: #a29dff;
-  --clr-grey-1: #102a42;
-  --clr-grey-5: #617d98;
-  --clr-grey-10: #f1f5f8;
-  --clr-white: #fff;
-  --clr-red-dark: hsl(360, 67%, 44%);
-  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-primary: #ff6f61; /* Vibrant coral */
+  --clr-primary-dark: #d9534f; /* Darker coral */
+  --clr-primary-light: #ffb3a7; /* Lighter coral */
+  --clr-grey-1: #2c3e50; /* Dark grey */
+  --clr-grey-5: #95a5a6; /* Medium grey */
+  --clr-grey-10: #ecf0f1; /* Light grey */
+  --clr-white: #ffffff; /* Pure white */
+  --clr-red-dark: hsl(0, 78%, 62%); /* Bright red */
+  --clr-red-light: hsl(0, 85%, 80%); /* Light red */
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.25rem;
@@ -27,8 +27,8 @@ Variables
   box-sizing: border-box;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
